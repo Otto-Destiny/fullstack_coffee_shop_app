@@ -293,13 +293,13 @@ The Coffee Shop Frontend provides an intuitive user interface for interacting wi
 ## Deployment
 To deploy the Coffee Shop API to a production environment, follow these steps:
 
-Set up a production database.
-Update the database URI to point to the production database.
-Configure the necessary environment variables, such as the Auth0 credentials and database URI.
-Set up a production-ready web server, such as Nginx or Apache, to handle incoming requests.
-Deploy the Flask application to the web server, following the recommended deployment practices for your chosen web server.
-Configure SSL/TLS certificates to enable secure communication with the API.
-Start the web server and ensure that the API is accessible over HTTPS.
+- Set up a production database.
+- Update the database URI to point to the production database.
+- Configure the necessary environment variables, such as the Auth0 credentials and database URI.
+- Set up a production-ready web server, such as Nginx or Apache, to handle incoming requests.
+- Deploy the Flask application to the web server, following the recommended deployment practices for your chosen web server.
+- Configure SSL/TLS certificates to enable secure communication with the API.
+- Start the web server and ensure that the API is accessible over HTTPS.
 It's important to secure your production environment by properly configuring authentication, authorization, and access control mechanisms. You should also monitor the application for performance, security, and error logging to ensure smooth operation.
 
 ## Author
